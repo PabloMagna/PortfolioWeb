@@ -14,8 +14,8 @@
 }
 
 :root {
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
+    --bg-color: #3d434d;
+    --second-bg-color: #616f89;
     --text-color: #fff;
     --main-color: #f3ca4c;
 }
@@ -77,10 +77,19 @@ section {
     display: none;
 }
 
+/* .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 .home {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("/images/fondoHome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .home-img img {
@@ -194,7 +203,7 @@ span {
     margin: 2rem 0 3rem;
 }
 
-.services h2 {
+/* .services h2 {
     margin-bottom: 5rem;
 }
 
@@ -233,10 +242,65 @@ span {
 .services-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+} */
+.services h2 {
+    margin-bottom: 5rem;
 }
 
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.services-container .services-box {
+    position: relative;
+    background: var(--main-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.services-container .services-box .iconify {
+    font-size: 4rem;
+    color: var(--second-bg-color);
+}
+
+.services-container .services-box:hover {
+    transform: scale(1.1);
+}
+
+.services-container .services-box:hover::before {
+    content: attr(title);
+    position: absolute;
+    top: -4.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: .5rem 1rem;
+    background: var(--main-color);
+    color: var(--text-color);
+    border-radius: .5rem;
+    font-size: 1rem;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+
+
 .portfolio {
-    background: var(--second-bg-color);
+    background-image: url("/images/fondoHome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .portfolio h2 {
@@ -287,11 +351,14 @@ span {
 }
 
 .portfolio-layer h4 {
-    font-size: 3rem;
+    font-size: 2rem;
+    align-items: center;
+    margin: .3rem 0 1rem;
 }
 
 .portfolio-layer p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    align-items: center;
     margin: .3rem 0 1rem;
 }
 
@@ -349,6 +416,12 @@ span {
 .contact form .btn {
     margin-top: 2rem;
     cursor: pointer;
+}
+
+.contact p {
+    color: var(--main-color);
+    align-items: center;
+    font-size: 1.6rem;
 }
 
 .footer {
@@ -456,7 +529,7 @@ span {
     }
 
     .home-img img {
-        width: 70vh;
+        width: 80vh;
         margin-top: 4rem;
     }
 
