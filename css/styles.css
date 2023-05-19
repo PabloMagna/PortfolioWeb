@@ -414,6 +414,11 @@ span {
     resize: none;
 }
 
+.contact textarea::placeholder,
+.contact input::placeholder {
+    color: rgb(202, 202, 202);
+}
+
 .contact form .btn {
     margin-top: 2rem;
     cursor: pointer;
