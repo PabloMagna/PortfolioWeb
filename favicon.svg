@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+	<title>favicon-svg</title>
+	<defs>
+		<image  width="20" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASBAMAAACp/uMjAAAAAXNSR0IB2cksfwAAACFQTFRF88pM88pM88pM88pM88pM88pM88pM88pM88pM88pMAAAAQRSNYgAAAAt0Uk5TZ+L/4V3f1/jx9QDZdWYvAAAAJElEQVR4nGNgVIICE4YgGFONQQkOgMyKSTDmKigYSCayy2AAAF9mS9R7I0c6AAAAAElFTkSuQmCC"/>
+		<image  width="14" height="8" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAICAMAAAD+zz7+AAAAAXNSR0IB2cksfwAAAGxQTFRFAAAA88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pM88pMARUUcgAAACR0Uk5TAF+7pbe/yzMpoGr/9BoJlfztlygAnFkGNe/PZUvSOEbpncD6slDN6AAAAFZJREFUeJwlzFcSgDAIBNDVaCyxxd5ivf8dZSMfOzwYAIAglICK4CvWOgHSTOeUMaYogapurPVqO477QVpSjeQ0L0J63YDdcemP3QGcrrj+1/fDfJXEB7faA8feXx6iAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="2" y="3"/>
+	<use id="Layer" href="#img2" x="5" y="9"/>
+</svg>
